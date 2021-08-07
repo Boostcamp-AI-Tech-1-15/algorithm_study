@@ -1,5 +1,16 @@
 # Algorithm Study
 
+
+
+## TOC
+
+- [팀원](https://github.com/Boostcamp-AI-Tech-1-15/algorithm_study#-%ED%8C%80%EC%9B%90)
+- [스터디 방법](https://github.com/Boostcamp-AI-Tech-1-15/algorithm_study#%EF%B8%8F-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%A9%EB%B2%95)
+- [Schedule](https://github.com/Boostcamp-AI-Tech-1-15/algorithm_study#-schedule)
+- [컨벤션 및 규칙](https://github.com/Boostcamp-AI-Tech-1-15/algorithm_study#-%EC%BB%A8%EB%B2%A4%EC%85%98-%EB%B0%8F-%EA%B7%9C%EC%B9%99)
+
+
+
 ## 👋 팀원
 
 |                            김다영                            |                            문하겸                            |                            박지민                            |                            이요한                            |                            전준영                            |                            정민지                            |
