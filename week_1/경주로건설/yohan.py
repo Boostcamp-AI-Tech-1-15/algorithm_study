@@ -1,6 +1,7 @@
 from collections import deque
 import math
 
+
 def solution(board):
     # 하드코딩 방지용 매크로 변수들
     UP, DOWN, LEFT, RIGHT = 0, 1, 2, 3
@@ -11,14 +12,15 @@ def solution(board):
         dx = [-1, 1, 0, 0]
         dy = [0, 0, -1, 1]
 
-        # DP 테이블 0으로 초기화
-        dp_table = [[math.inf for j in range(len(board[i]))] for i in range(len(board))]
+        # costs 배열을 0으로 초기화
+        costs = [[math.inf for j in range(len(board[i]))]
+                 for i in range(len(board))]
 
         # 큐 초기화 및 시작변수 대입
         queue = deque()
         queue.append(start)
 
-        dp_table[0][0] = 0
+        costs[0][0] = 0
         while queue:
             x, y, direction, cost = queue.popleft()
             for i in range(4):
@@ -38,15 +40,15 @@ def solution(board):
                         new_cost = cost + 100
                     else:
                         new_cost = cost + 600
-                    
-                    # DP 테이블에 있는 값보다 계산된 비용이 적을 경우 해당 테이블의 값 업데이트하고
+
+                    # costs에 있는 값보다 계산된 비용이 적을 경우 해당 테이블의 값 업데이트하고
                     # 큐에 변수들 추가
-                    if new_cost < dp_table[nx][ny]:
-                        dp_table[nx][ny] = new_cost
+                    if new_cost < costs[nx][ny]:
+                        costs[nx][ny] = new_cost
                         queue.append((nx, ny, i, new_cost))
 
         # 도착지점의 값 반환
-        return dp_table[-1][-1]
+        return costs[-1][-1]
 
     # 오른쪽 출발과 아래로 출발했을 때의 최소값 반환
     return min(bfs((0, 0, DOWN, 0)), bfs((0, 0, RIGHT, 0)))
