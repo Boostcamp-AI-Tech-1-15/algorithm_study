@@ -36,7 +36,7 @@
 | WEEK |                           PROBLEM                            |        DURATION         |   REVIEW DATE   |
 | :--: | :---------------------------------------------------------- | :---------------------: | :-------------: |
 |  01  | 1. [2020 카카오 인턴십 코딩테스트 - 경주로 건설](https://programmers.co.kr/learn/courses/30/lessons/67259) | 2021.08.06 ~ 2021.08.08 | 2021.08.09 (월) |
-|  02  |1. [2019 KAKAO BLIND RECRUITMENT - 오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)<br> 2. [월간 코드 챌린지 시즌1 - 풍선 터트리기](https://programmers.co.kr/learn/courses/30/lessons/68646)<br> 3. [2018 KAKAO BLIND RECRUITMENT - [1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)<br> +) [연습문제 - 하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946)| 2021.08.10 ~ 2021.08.15 | 2021.08.16 (월) |
+|  02  |1. [2019 KAKAO BLIND RECRUITMENT - 오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)<br> 2. [월간 코드 챌린지 시즌1 - 풍선 터트리기](https://programmers.co.kr/learn/courses/30/lessons/68646)<br> 3. [2018 KAKAO BLIND RECRUITMENT - [1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)<br> +) [연습문제 - 하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946)| 2021.08.10 ~ 2021.08.15 | 2021.08.17 (화) |
 
 ---
 
