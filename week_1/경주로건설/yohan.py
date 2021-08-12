@@ -23,7 +23,7 @@ def solution(board):
 
         costs[0][0] = 0
         while queue:
-            x, y, direction, cost = queue.popleft()
+            x, y, prev_direction, cost = queue.popleft()
             for direction in DIRS:
                 # 방향벡터 설정
                 nx, ny = x + dx[direction], y + dy[direction]
@@ -37,7 +37,7 @@ def solution(board):
 
                 if board[nx][ny] == NOT_WALL:
                     # 이동중이던 방향과 같으면 직선도로, 아니면 코너로 간주하여 비용 계산
-                    if direction == direction:
+                    if direction == prev_direction:
                         new_cost = cost + 100
                     else:
                         new_cost = cost + 600
@@ -53,3 +53,6 @@ def solution(board):
 
     # 오른쪽 출발과 아래로 출발했을 때의 최소값 반환
     return min(bfs((0, 0, DOWN, 0)), bfs((0, 0, RIGHT, 0)))
+
+
+print(solution([[0, 0, 0], [0, 0, 0], [0, 0, 0]]))
